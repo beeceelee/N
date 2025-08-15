@@ -25,7 +25,7 @@ bot = telebot.TeleBot(TOKEN)
 # ========================
 # Database Setup
 # ========================
-conn = sqlite3.connect('nexo_bot.db', check_same_thread=False)
+conn = sqlite3.connect('Neiokxbot.db', check_same_thread=False)
 c = conn.cursor()
 
 c.execute('''CREATE TABLE IF NOT EXISTS users (
